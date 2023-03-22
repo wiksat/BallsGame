@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .pole {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            display: block;
+            float: left;
+        }
+
+        .kula {
+            width: 48px;
+            height: 48px;
+            border: 1px black solid;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        #game {
+            width: 500px;
+            margin: 0;
+            float: left;
+        }
+
+        #preview {
+            float: left;
+        }
+
+        #licznik {
+            float: left;
+        }
+
+        #czas {
+            float: left;
+            margin-left: 30px;
+        }
+
+        * {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="game"></div>
+    <div id="preview"></div>
+    <div id="licznik"></div>
+    <div id="czas"></div>
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
